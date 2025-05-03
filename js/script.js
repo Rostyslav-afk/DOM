@@ -19,3 +19,27 @@
 // Історія Браузера
 // history.back();
 // history.forward();
+
+// DOM
+
+//Навігація по документу
+
+// const htmlElement = document.documentElement;
+// const headElement = document.head;
+// const bodyElement = document.body;
+
+// console.log(htmlElement);
+// console.log(headElement);
+// console.log(bodyElement);
+
+//Получаємо обєкти body
+const bodyElement = document.body;
+//Получаємо перші і останні елементи
+const firstChildNode = bodyElement.firstChild;
+const lastChildNode = bodyElement.lastChild;
+
+console.log(firstChildNode);
+console.log(lastChildNode);
+
+
+
